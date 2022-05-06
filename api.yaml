@@ -1,0 +1,38 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: chai-svc
+spec:
+  selector:
+    app: chai-api
+  ports:
+    - protocol: "TCP"
+      port: 8080
+      targetPort: 8080
+      nodePort: 30007
+  type: NodePort
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chai-api
+  labels:
+    app: chai-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: chai-api
+  template:
+    metadata:
+      labels:
+        app: chai-api
+    spec:
+      containers:
+        - name: chai-api
+          image: alekseykorshuk/chai-take-home:main
+          ports:
+            - containerPort: 8080
+          imagePullPolicy: Always
