@@ -27,7 +27,7 @@ pip install git+https://github.com/AlekseyKorshuk/transformers.git@opt
 
 With Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlekseyKorshuk/chai-take-home/blob/main/notebooks/opt-integration.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlekseyKorshuk/chai-take-home/blob/main/notebooks/opt_integration.ipynb)
 
 ### With pipeline
 
