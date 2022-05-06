@@ -72,6 +72,14 @@ nlp("Chai is the best startup ever!")
 # [{'label': 'POSITIVE', 'score': 0.999721109867096}]  
 ```
 
+> Note: These results were collected on my local machine.
+
+**Benchmark `sentiment-analysis` pipeline**
+
+![](https://raw.githubusercontent.com/AlekseyKorshuk/optimum-transformers/master/data/sentiment_analysis_benchmark.jpg)
+
+> Visit project repository for more benchmarks: [Optimum Transformers](https://github.com/AlekseyKorshuk/optimum-transformers).
+
 Here is a quick overview how it was done and a lot of details on how each step can be performed:
 [link](https://medium.com/@alekseykorshuk/optimum-transformers-61d4c61e5754).
 
@@ -81,4 +89,5 @@ To use the new OPT architecture as easy as possible, will need to do the followi
 * Add ONNX graph converter with new OPT architecture to Transformers & ONNX
 * Add new converter to Optimum
 
-Everything else has already been done by me in [Optimum Transformers](https://github.com/AlekseyKorshuk/optimum-transformers).
+Everything else has already been done by me
+in [Optimum Transformers](https://github.com/AlekseyKorshuk/optimum-transformers).
