@@ -81,4 +81,4 @@ To use the new OPT architecture as easy as possible, will need to do the followi
 * Add ONNX graph converter with new OPT architecture to Transformers & ONNX
 * Add new converter to Optimum
 
-Everything else has already been done by me in [Optimum Transformers](https://github.com/AlekseyKorshuk/optimum-transformers). .
+Everything else has already been done by me in [Optimum Transformers](https://github.com/AlekseyKorshuk/optimum-transformers).
